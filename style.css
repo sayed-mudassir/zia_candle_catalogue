@@ -670,3 +670,26 @@ footer {
     display: none;
   }
 }
+
+@media (max-width: 420px) {
+  .brand-name {
+    font-size: 2.4rem;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .product-image {
+    height: 280px;
+  }
+
+  .price {
+    font-size: 1.4rem;
+    padding: 4px 10px;
+  }
+
+  .contact-item {
+    padding: 1.2rem;
+  }
+}
