@@ -135,9 +135,10 @@ function renderProducts() {
 // Animation on scroll
 const observerOptions = {
   root: null,
-  rootMargin: "0px",
-  threshold: 0.1,
+  threshold: 0,
+  rootMargin: "0px 0px -150px 0px", // 🔥 MOBILE FIX
 };
+
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
