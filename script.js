@@ -2,9 +2,9 @@
 const products = [
   {
     id: 1,
-    name: "Bubble Cube Candle",
+    name: "Bubble Candles",
     category: "Decorative Candles",
-    approxWeight: "120–150 g",
+    fragrance: "Floral Scent",
     price: "₹30",
     imageUrl: "./assets/Bubbles.jpeg",
     description: "Minimal bubble-style candle designed for modern home decor.",
@@ -13,25 +13,25 @@ const products = [
     id: 2,
     name: "Christmas Tree Candle",
     category: "Festive Collection",
-    approxWeight: "180–220 g",
+    fragrance: "Warm, Cozy & Festive",
     price: "₹150",
     imageUrl: "./assets/Christmass-tree.jpeg",
     description: "Tree-shaped decorative candle perfect for festive celebrations.",
   },
   {
     id: 3,
-    name: "Floral Boat Candle",
+    name: "Desert Cactus Boat Candle",
     category: "Luxury Candles",
-    approxWeight: "350–450 g",
+    fragrance: "Lusty Meadows",
     price: "₹899",
     imageUrl: "./assets/Desert-Boat.jpeg",
     description: "Elegant boat-shaped candle with floral detailing for premium decor.",
   },
   {
     id: 4,
-    name: "Heart Tray Candle",
+    name: "Heart Shaped Tray Candle",
     category: "Gift Collection",
-    approxWeight: "300–400 g",
+    fragrance: "Vanilla & Rose",
     price: "₹699",
     imageUrl: "./assets/Heart-Shaped.jpeg",
     description: "Heart-shaped candle tray ideal for gifting and special occasions.",
@@ -40,7 +40,7 @@ const products = [
     id: 5,
     name: "Lavender Boat Candle",
     category: "Decorative Candles",
-    approxWeight: "300–380 g",
+    fragrance: "Lavender Bliss",
     price: "₹1200",
     imageUrl: "./assets/Lavender-Boat.jpeg",
     description: "Aesthetic boat-style candle crafted for a calm and elegant ambience.",
@@ -49,7 +49,7 @@ const products = [
     id: 6,
     name: "Biscuit Jar Candle",
     category: "Creative Candles",
-    approxWeight: "200–250 g",
+    fragrance: "Nostalgic Comfort",
     price: "₹120",
     imageUrl: "./assets/ParleG.jpeg",
     description: "Fun and creative candle inspired by everyday favorites.",
@@ -58,7 +58,7 @@ const products = [
     id: 7,
     name: "Red Heart Floral Candle",
     category: "Gift Collection",
-    approxWeight: "320–420 g",
+    fragrance: "Romantic Bliss",
     price: "₹999",
     imageUrl: "./assets/Red-Heart.jpeg",
     description: "Floral heart-shaped candle designed for romantic and festive gifting.",
@@ -67,7 +67,7 @@ const products = [
     id: 8,
     name: "Snowflake Candle",
     category: "Festive Collection",
-    approxWeight: "130–170 g",
+      fragrance: "Frosted Vanilla",
     price: "₹130",
     imageUrl: "./assets/snowFlakes.jpeg",
     description: "Snowflake-inspired candle perfect for winter and festive decor.",
@@ -76,7 +76,7 @@ const products = [
     id: 9,
     name: "Star Tealight Candle",
     category: "Decorative Candles",
-    approxWeight: "90–120 g",
+    fragrance: "Assorted Fragrances",
     price: "₹30",
     imageUrl: "./assets/Star-shaped.jpeg",
     description: "Star-shaped tealight candle that adds a warm festive glow.",
@@ -85,7 +85,7 @@ const products = [
     id: 10,
     name: "Sunflower Candle",
     category: "Premium Decor",
-    approxWeight: "220–280 g",
+    fragrance: "Sunshine Bloom",
     price: "₹259",
     imageUrl: "./assets/Sunflower.jpeg",
     description: "Sunflower-inspired candle designed to brighten your living space.",
@@ -120,8 +120,8 @@ function renderProducts() {
                                 <span class="detail-value">${product.category}</span>
                             </div>
                             <div class="detail-item">
-                                <span class="detail-label">Weight:</span>
-                                <span class="detail-value">${product.approxWeight}</span>
+                                <span class="detail-label">Fragrance:</span>
+                                <span class="detail-value">${product.fragrance}</span>
                             </div>
                         </div>
                         <div class="price">${product.price}</div>
