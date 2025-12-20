@@ -16,7 +16,8 @@ const products = [
     fragrance: "Warm, Cozy & Festive",
     price: "₹150",
     imageUrl: "./assets/Christmass-tree.jpeg",
-    description: "Tree-shaped decorative candle perfect for festive celebrations.",
+    description:
+      "Tree-shaped decorative candle perfect for festive celebrations.",
   },
   {
     id: 3,
@@ -25,7 +26,8 @@ const products = [
     fragrance: "Lusty Meadows",
     price: "₹899",
     imageUrl: "./assets/Desert-Boat.jpeg",
-    description: "Elegant boat-shaped candle with floral detailing for premium decor.",
+    description:
+      "Elegant boat-shaped candle with floral detailing for premium decor.",
   },
   {
     id: 4,
@@ -34,7 +36,8 @@ const products = [
     fragrance: "Vanilla & Rose",
     price: "₹699",
     imageUrl: "./assets/Heart-Shaped.jpeg",
-    description: "Heart-shaped candle tray ideal for gifting and special occasions.",
+    description:
+      "Heart-shaped candle tray ideal for gifting and special occasions.",
   },
   {
     id: 5,
@@ -43,7 +46,8 @@ const products = [
     fragrance: "Lavender Bliss",
     price: "₹1200",
     imageUrl: "./assets/Lavender-Boat.jpeg",
-    description: "Aesthetic boat-style candle crafted for a calm and elegant ambience.",
+    description:
+      "Aesthetic boat-style candle crafted for a calm and elegant ambience.",
   },
   {
     id: 6,
@@ -61,16 +65,18 @@ const products = [
     fragrance: "Romantic Bliss",
     price: "₹999",
     imageUrl: "./assets/Red-Heart.jpeg",
-    description: "Floral heart-shaped candle designed for romantic and festive gifting.",
+    description:
+      "Floral heart-shaped candle designed for romantic and festive gifting.",
   },
   {
     id: 8,
     name: "Snowflake Candle",
     category: "Festive Collection",
-      fragrance: "Frosted Vanilla",
+    fragrance: "Frosted Vanilla",
     price: "₹130",
     imageUrl: "./assets/snowFlakes.jpeg",
-    description: "Snowflake-inspired candle perfect for winter and festive decor.",
+    description:
+      "Snowflake-inspired candle perfect for winter and festive decor.",
   },
   {
     id: 9,
@@ -88,11 +94,10 @@ const products = [
     fragrance: "Sunshine Bloom",
     price: "₹259",
     imageUrl: "./assets/Sunflower.jpeg",
-    description: "Sunflower-inspired candle designed to brighten your living space.",
+    description:
+      "Sunflower-inspired candle designed to brighten your living space.",
   },
 ];
-
-
 
 // Function to render product cards
 function renderProducts() {
@@ -127,6 +132,10 @@ function renderProducts() {
                         <div class="price">${product.price}</div>
                     </div>
                 `;
+    productCard.addEventListener("click", () => {
+      location.href = `./products/product1.html?id=${product.id}`;
+      console.log(product.id);
+    });
 
     productsContainer.appendChild(productCard);
   });
@@ -138,7 +147,6 @@ const observerOptions = {
   threshold: 0,
   rootMargin: "0px 0px -150px 0px", // 🔥 MOBILE FIX
 };
-
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
