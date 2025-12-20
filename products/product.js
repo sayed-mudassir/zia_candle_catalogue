@@ -31,7 +31,7 @@ const products = [
       "This beautifully crafted tree-shaped candle is designed to capture the warmth and charm of festive celebrations. Inspired by seasonal décor, its elegant silhouette adds a joyful and celebratory touch to living spaces, dining tables, and decorative corners. Whether used as a centerpiece or a subtle accent, it enhances the festive ambiance with its visually appealing design. Ideal for holidays, special occasions, and gifting, this decorative candle blends tradition with modern aesthetics to elevate your home décor during celebrations.",
     rating: 4.6,
     reviewCount: 89,
-    additionalImages: ["../assets/ziaCandlesImages/X-Mass-tree.jpeg"],
+    additionalImages: [],
     ingredients: "Natural soy wax, premium fragrance oil, cotton wick",
     scentProfile: "Warm, sweet, festive",
     roomSize: "Small to medium rooms",
@@ -77,7 +77,6 @@ const products = [
       "../assets/ziaCandlesImages/heart-shaped4.jpeg",
       "../assets/ziaCandlesImages/heart-shaped5.jpeg",
       "../assets/ziaCandlesImages/heart-shaped6.jpeg",
-      "../assets/ziaCandlesImages/heart-shaped7.jpeg",
       "../assets/ziaCandlesImages/heart-shaped8.jpeg",
     ],
     ingredients: "Natural soy wax, vanilla fragrance oil, cotton wick",
@@ -122,7 +121,7 @@ const products = [
 
     rating: 4.9,
     reviewCount: 156,
-    additionalImages: ["../assets/ParleG.jpeg"],
+    additionalImages: [],
     ingredients: "Natural soy wax, mild fragrance oil, cotton wick",
     scentProfile: "Light, pleasant, non-overpowering",
     roomSize: "Small to medium rooms",
@@ -141,8 +140,8 @@ const products = [
     rating: 4.9,
     reviewCount: 156,
     additionalImages: [
-      "../assets/ziaCandlesImages/red-heart.jpeg",
       "../assets/ziaCandlesImages/red-heart2.jpeg",
+      "../assets/ziaCandlesImages/heart-shaped7.jpeg",
       "../assets/ziaCandlesImages/red-heart3.jpeg",
     ],
     ingredients: "Natural soy wax, floral fragrance oil, cotton wick",
@@ -163,7 +162,7 @@ const products = [
     rating: 4.9,
     reviewCount: 156,
     additionalImages: [
-      "../assets/ziaCandlesImages/snowflakes.jpeg",
+      
       "../assets/ziaCandlesImages/snowflakes2.jpeg",
     ],
     ingredients: "Natural soy wax, premium fragrance oil, cotton wick",
@@ -183,7 +182,7 @@ const products = [
       "This charming star-shaped tealight candle is designed to bring a warm and festive glow to any space. Its elegant star form makes it a perfect accent for celebrations, festive décor, and special occasions. When lit, it creates a soft, inviting ambience that enhances tablescapes, shelves, and decorative corners. Ideal for festivals, parties, and gifting, this tealight candle blends simplicity with festive charm, making it a delightful addition to both modern and traditional décor settings.",
     rating: 4.9,
     reviewCount: 156,
-    additionalImages: ["../assets/ziaCandlesImages/starShaped.jpeg"],
+    additionalImages: [],
     ingredients: "Natural soy wax, premium fragrance oil, cotton wick",
     scentProfile: "Light, subtle, pleasant",
     roomSize: "Small to medium rooms",
